@@ -139,10 +139,11 @@ footer
 {
     background-color: #2196F3;
     color: #FFFFFF;
-    border: 25px solid #2196F3;
+    border: 16px solid #2196F3;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     letter-spacing: 0.06em;
+    line-height: 30px;
 }
 .task_team_photo img
 {
@@ -182,7 +183,6 @@ footer
     background-color: #F5F4FA;
     color: #757575;
     font-size: 16pt;
-    height: 640px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -191,4 +191,18 @@ footer
 .photo_portfolio img
 {
     width: 370px;
+}
+.photo_portfolio p
+{
+    width: 400px;
+}
+.Port
+{
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border: 16px solid #2196F3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    letter-spacing: 0.06em;
+    line-height: 26px;
 }
