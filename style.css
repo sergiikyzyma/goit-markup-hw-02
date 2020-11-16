@@ -128,6 +128,7 @@ footer
 .nav_menu h2
 {
     font-family: "Raleway";
+    letter-spacing: 0.03em;
     margin-inline: 50px;
 }
 .nav_menu span
@@ -136,10 +137,12 @@ footer
 }
 .Order
 {
+    background-color: #2196F3;
+    color: #FFFFFF;
     border: 25px solid #2196F3;
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    color: white;
+    letter-spacing: 0.06em;
 }
 .task_team_photo img
 {
@@ -156,6 +159,7 @@ footer
 .team_address h2
 {
     font-family: "Raleway";
+    letter-spacing: 0.03em;
 }
 .team_address li
 {
@@ -172,4 +176,19 @@ footer
 #logo_4
 {
     color: #FFFFFF;
+}
+.photo_portfolio
+{
+    background-color: #F5F4FA;
+    color: #757575;
+    font-size: 16pt;
+    height: 640px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo_portfolio img
+{
+    width: 370px;
 }
