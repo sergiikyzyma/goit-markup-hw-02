@@ -1,3 +1,8 @@
+@font-face
+{
+    font-family: "Raleway";
+    src: url("./fonts/Raleway/static/Raleway-BoldItalic.ttf");
+}
 body
 {
     background-color: white;
@@ -36,6 +41,7 @@ header
 {
     background-color: #F5F4FA;
     color: #757575;
+    font-size: 14pt;
     height: 80px;
     text-align: center;
     display: flex;
@@ -45,7 +51,8 @@ header
 footer
 {
     background-color: #2F303A;
-    color: #757575;
+    color: #FFFFFF;
+    font-size: 14pt;
     height: 252px;
     text-align: left;
     display: flex;
@@ -56,6 +63,7 @@ footer
 {
     background-color: #2F303A;
     color: white;
+    font-size: 14pt;
     height: 600px;
     text-align: center;
     display: flex;
@@ -64,7 +72,11 @@ footer
 }
 .main_team h1
 {
-    transform: translateY(-150px);
+    color: #FFFFFF;
+    font-size: 36pt;
+    width: 900px;
+    text-transform: uppercase;
+    transform: translateY(-50px);
 }
 .task_team
 {
@@ -75,6 +87,10 @@ footer
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.task_team h3
+{
+    text-transform: uppercase;
 }
 .task_team_photo
 {
@@ -111,6 +127,7 @@ footer
 }
 .nav_menu h2
 {
+    font-family: "Raleway";
     margin-inline: 50px;
 }
 .nav_menu span
@@ -136,7 +153,23 @@ footer
 {
     margin: 0px -30px;
 }
+.team_address h2
+{
+    font-family: "Raleway";
+}
 .team_address li
 {
     display: block;
+}
+#logo_1, #logo_3
+{
+    color: #2196F3;
+}
+#logo_2
+{
+    color: #212121;
+}
+#logo_4
+{
+    color: #FFFFFF;
 }
